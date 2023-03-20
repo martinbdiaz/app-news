@@ -1,5 +1,4 @@
 const Countries = ({country, setCountry}) => {
-    console.log(country)
     const handleChange = (e) => {
         setCountry(e.target.value); 
     }

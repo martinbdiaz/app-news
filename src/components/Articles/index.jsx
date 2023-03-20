@@ -1,7 +1,5 @@
 const Articles = ({articles}) => {
 
-    console.log('articles', articles)
-
     return (articles.length>0) ? (
         articles?.map((article, idx) =>{
             return <div className="article" key={idx}>
