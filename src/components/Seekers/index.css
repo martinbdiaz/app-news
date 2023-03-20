@@ -1,0 +1,45 @@
+.searchContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.searchContainer .searchContent {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.searchContainer .searchContent .searchInput {
+    line-height: 20px;
+    padding: 0 10px;
+    width: 85%;
+    max-width: 450px;
+    font-size: 15px;
+    height: 44px;
+    margin: 10px 0;
+}
+.searchContainer .searchContent .searchButton {
+    width: 15%;
+    max-height: 44px;
+    margin: 10px 0;
+}
+span.linkSearch {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+}
+
+.searchFilter {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.searchFilter select {
+    padding: 0 10px;
+    height: 44px;
+    width: 50%;
+}
